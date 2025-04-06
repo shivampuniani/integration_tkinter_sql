@@ -1,0 +1,26 @@
+USE [Test_Database]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Test_TKINTER](
+	[field1_value]  [varchar](20) NULL,
+	[field2_value]  [varchar](20) NULL,
+	[field3_value]  [varchar](20) NULL,
+	[field4_value]  [varchar](20) NULL,
+	[field5_value]  [varchar](20) NULL,
+	[field6_value]  [varchar](20) NULL,
+	[field7_value]  [varchar](20) NULL,
+	[field8_value]  [varchar](20) NULL,
+	[shift] [nchar](10) NULL,
+	[timestamp] [varchar](20) NULL,
+	[flag] [nchar](10) NULL,
+	[recordId] [int] IDENTITY(1,1) NOT NULL
+) ON [PRIMARY]
+GO
+
+
