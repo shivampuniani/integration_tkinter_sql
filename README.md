@@ -25,28 +25,28 @@ This program is a graphical user interface (GUI) application built with Python's
 
 3. Configure the database connection:
 
-Update the connection details in the config.ini file with your SQL Server credentials. Here's the format:   
+Update the connection details in the config.ini file with your SQL Server credentials. Here's the format:    
 
-```bash
-[database]  
-server = NOT-CONNECTED\TEW_SQLEXPRESS  
-database = Test_Database  
-username = sa  
-password = 12345678  
-  
-[fields]  
-field1 = field1  
-field2 = field2  
-field3 = field3  
-field4 = field4  
-field5 = field5  
-field6 = field6  
-field7 = field7  
-field8 = field8  
-  
-[dimensions]  
-w = 600  
-h = 600  
+   ```bash
+   [database]  
+   server = NOT-CONNECTED\TEW_SQLEXPRESS  
+   database = Test_Database  
+   username = sa  
+   password = 12345678  
+     
+   [fields]  
+   field1 = field1  
+   field2 = field2  
+   field3 = field3  
+   field4 = field4  
+   field5 = field5  
+   field6 = field6  
+   field7 = field7  
+   field8 = field8  
+     
+   [dimensions]  
+   w = 600  
+   h = 600 
 
 4. Run the script:
    ```bash
