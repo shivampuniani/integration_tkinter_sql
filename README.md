@@ -27,7 +27,7 @@ This program is a graphical user interface (GUI) application built with Python's
 
 Update the connection details in the config.ini file with your SQL Server credentials. Here's the format:    
 
-   ```bash
+   
    [database]  
    server = NOT-CONNECTED\TEW_SQLEXPRESS  
    database = Test_Database  
