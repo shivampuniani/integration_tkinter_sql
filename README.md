@@ -50,7 +50,7 @@ Update the connection details in the config.ini file with your SQL Server creden
 
 4. Run the script:
    ```bash
-   python Python_Tabs_separated_values_file_to_SQL.py
+   Python_Tkinter_HMI_to_SQL.py
 
 
 Tkinter_HMI-SQL-Integration-project/  
